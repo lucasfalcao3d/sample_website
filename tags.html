@@ -8,10 +8,10 @@
 
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="moby_dick.html">Moby Dick</a>
-      <a href="tags.html">HTML Tags</a>
+    <div style="text-align: right; margin: 0 10px 0 0;">
+      <a href="index.html" style="text-decoration: none; color:blue;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color:blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color:blue;">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -33,6 +33,48 @@
       the most important ones.
     </p>
 
+    <h2>Document tags</h2>
+
+    <table>
+
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+
+      <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>All elements are inside the html</td>
+      </tr>
+
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>Block that contains the title and meta</td>
+      </tr>
+
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>All content of the page goes inside the body</td>
+      </tr>
+
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>Text that renders on the browser tab</td>
+      </tr>
+
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>Metadata about the page</td>
+      </tr>
+
+    </table>
+
     <h2>Block Elements</h2>
 
     <table>
@@ -44,9 +86,9 @@
       </tr>
 
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
-        <td>include a heading (levels 1&ndash;6)</td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">headings</td>
+        <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
       </tr>
 
       <tr>
@@ -75,8 +117,8 @@
 
       <tr>
         <td><code>div</code></td>
-        <td>page divisions</td>
-        <td>include page divisions</td>
+        <td>division</td>
+        <td>include page blocks</td>
       </tr>
 
       <tr>
@@ -89,6 +131,18 @@
         <td><code>ul</code></td>
         <td>unordered list</td>
         <td>used when the order of the list it's not important (bullet)</td>
+      </tr>
+
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>block of the header</td>
+      </tr>
+
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>blockquote</td>
+        <td>used to emphasize quotes</td>
       </tr>
 
     </table>
@@ -151,6 +205,14 @@
         <td>create each list item</td>
         <td><code>&lt;li&gt;list item&lt;/li&gt;</code></td>
         <td><ul><li>list item</li></ul></td>
+      </tr>
+
+      <tr>
+        <td><code>br</code></td>
+        <td>break</td>
+        <td>break the line of a text</td>
+        <td><code>&lt;br&gt;break the line of a text&lt;/br&gt;</code></td>
+        <td>break the line of a text,<br>and continues on the other line</td>
       </tr>
 
     </table>
